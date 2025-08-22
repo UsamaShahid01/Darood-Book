@@ -1,0 +1,33 @@
+.highlight-name {
+  color: #b22222;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.urdu-next {
+  font-family: "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", serif;
+  font-size: 18px;
+}
+
+strong{
+ display: inline-block;
+  line-height: 1.8;
+  padding: 0 2px;
+  white-space: normal;
+}
+
+.arabic-urdu-abdul-majeed {
+  text-align: center;
+}
+
+@media (max-width: 425px) {
+  .duaa {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 375px) {
+  .duaa {
+    font-size: 1px;
+  }
+}

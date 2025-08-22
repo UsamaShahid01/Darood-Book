@@ -1,0 +1,229 @@
+
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to right, #136a8a, #267871);
+  padding: 16px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-logo {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.nav-logo:hover {
+  transform: scale(1.05);
+}
+
+.nav-links-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-item {
+  font-weight: 600;
+  font-size: 17px;
+  color: white;
+  position: relative;
+  padding: 6px 10px;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  color: #ffd700;
+  transform: translateY(-2px);
+}
+
+.nav-item:hover::after {
+  width: 100%;
+}
+
+.active-nav {
+  color: #ffd700 !important;
+  border-bottom: 2px solid #ffd700;
+}
+
+.language-selector-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content; /* Added so it hugs the dropdown in desktop */
+}
+
+.language-selector:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(244, 162, 97, 0.5);
+}
+
+.chevron-icon {
+  position: absolute;
+  right: 18px;
+  pointer-events: none;
+  color: #2f2f2f;
+  font-size: 14px;
+  top: 50%;
+  transform: translateY(-50%) rotate(0deg);
+  transition: transform 0.3s ease;
+}
+
+.chevron-icon.rotate-up {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.language-selector {
+  padding: 8px 40px 8px 14px;
+  font-size: 16px;
+  font-family: inherit;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(to right, #f7c59f, #f4a261);
+  color: #2f2f2f;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  appearance: none;
+  box-shadow: 0 4px 10px rgba(244, 162, 97, 0.4);
+  direction: ltr;
+  text-align: center;
+  text-align-last: center;
+  overflow: hidden;
+  height: auto;
+  line-height: 1.6;
+}
+
+.language-selector option {
+  /* background-color: #f4a261; */
+  color: #1a1a1a;
+  font-weight: 500;
+  padding: 10px 12px;
+  text-align: center;
+  direction: ltr;
+}
+
+.language-selector option:checked {
+  background-color: #e07a5f;
+  color: #fff;
+}
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .nav-item {
+    padding: 0px 0px;
+  }
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links-wrapper {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background: linear-gradient(to right, #136a8a, #267871);
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    gap: 15px;
+    display: none;
+  }
+
+  .nav-links-wrapper.show {
+    display: flex;
+  }
+
+  /* Keep the brown box same width as before */
+  .language-selector-wrapper {
+    position: relative; /* Anchor for chevron */
+    display: inline-flex; /* Keep it small */
+    align-items: center;
+  }
+
+  .language-selector {
+    padding-right: 25px; /* Make room for chevron */
+  }
+
+  /* Place chevron inside the brown box */
+  .chevron-icon {
+    position: absolute;
+    right: 8px; /* inside the box */
+    top: 50%;
+    transform: translateY(-50%) rotate(0deg);
+    pointer-events: none;
+  }
+
+  .chevron-icon.rotate-up {
+    transform: translateY(-50%) rotate(180deg);
+  }
+}
+
+@media (max-width: 425px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links-wrapper {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background: linear-gradient(to right, #136a8a, #267871);
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    gap: 15px;
+    display: none;
+  }
+
+  .nav-links-wrapper.show {
+    display: flex;
+  }
+
+  /* Keep the brown box same width as before */
+  .language-selector-wrapper {
+    position: relative; /* Anchor for chevron */
+    display: inline-flex; /* Keep it small */
+    align-items: center;
+  }
+
+  .language-selector {
+    padding-right: 25px; /* Make room for chevron */
+  }
+
+  /* Place chevron inside the brown box */
+  .chevron-icon {
+    position: absolute;
+    right: 8px; /* inside the box */
+    top: 50%;
+    transform: translateY(-50%) rotate(0deg);
+    pointer-events: none;
+  }
+
+  .chevron-icon.rotate-up {
+    transform: translateY(-50%) rotate(180deg);
+  }
+}
+
+

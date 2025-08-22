@@ -1,0 +1,423 @@
+.contents-container {
+  direction: rtl;
+  font-family: "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", serif;
+  background: linear-gradient(to right, #fdfcf7, #f6f6ed);
+  width: 60%;
+  margin: 20px auto;
+  border-radius: 16px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.04);
+}
+
+.contents-heading {
+  text-align: center;
+  font-size: 38px;
+  margin-bottom: 30px;
+  margin-top: 0px;
+  color: black;
+  border-bottom: 2px solid #dcdcdc;
+  padding-bottom: 14px;
+  font-weight: bolder;
+}
+
+.table-labels {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  align-items: center;
+  background-color: #f0f0e4;
+  padding: 16px 30px;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  border: 1px solid #ddd;
+  border-radius: 12px 12px 0 0;
+  box-shadow: inset 0 0 5px #e0e0d0;
+  cursor: default;
+}
+
+.content-item {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  align-items: center;
+  background: #ffffff;
+  padding: 18px 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #2c3e50;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-top: 1px dashed #e2e2d5;
+
+  transition: background-color 0.25s ease, box-shadow 0.25s ease;
+  cursor: pointer;
+  position: relative;
+}
+
+
+.content-item:hover {
+  background: linear-gradient(#136a8a, #267871);
+  box-shadow: 0 6px 16px rgba(160, 120, 80, 0.25);
+  border-right: 4px solid #ffd700;
+  color: white;
+  z-index: 1;
+}
+
+.content-item.active {
+  background-color: burlywood;
+  border-right: 3px solid #c8b99b;
+  font-weight: bold;
+}
+
+.content-item:last-child {
+  border-radius: 0 0 12px 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.detail-layout {
+  display: flex;
+  flex-direction: row-reverse;
+  direction: rtl;
+  justify-content: center;
+  padding: 0 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.detail-content {
+  flex: 1;
+  padding: 20px;
+  background: #fdfcf7;
+  font-family: "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", serif;
+  font-family: "Noto Nastaliq Urdu", serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 2px dotted #267871;
+  box-shadow: 0 4px 8px rgba(194, 191, 163, 0.2);
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 14px;
+}
+
+.detail-heading {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+  position: relative;
+}
+
+.detail-heading span {
+  background: linear-gradient(#136a8a, #267871);
+  color: white;
+  padding: 12px 16px;
+  border-radius: 14px;
+  display: inline-block;
+  box-shadow: 0 6px 12px rgba(180, 160, 120, 0.15);
+  font-family: "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", serif;
+  text-shadow: 1px 1px 1px rgba(120, 100, 70, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.detail-text {
+  font-size: 18px;
+  line-height: 2.5;
+  width: 100%;
+  text-align: right;
+}
+
+.navigation-buttons-single-next-contents-sayings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.single-next-button-contents-sayings {
+  background: linear-gradient(#136a8a, #267871);
+  color: white;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.single-next-button-contents-sayings:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 91, 187, 0.3);
+}
+
+
+
+.poetry-block {
+  font-family: "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", serif;
+  text-align: right;
+  background-color: #fdf1ea;
+  padding: 20px 25px;
+  margin: 25px 0;
+  line-height: 2.4;
+  white-space: pre-line;
+  color: #3b2e2e;
+  border-radius: 8px;
+  font-size: 20px;
+
+}
+
+.author-name-address {
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+
+.navigation-buttons-next-prev-contents-sayings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.next-prev-buttons-contents-sayings {
+  background: linear-gradient(#136a8a, #267871);
+  color: white;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.next-prev-buttons-contents-sayings:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 91, 187, 0.3);
+}
+
+.urdu-font {
+  font-family: "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", serif;
+}
+
+.detail-text-refined-text {
+  font-family: "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", serif;
+  direction: rtl;
+  text-align: right;
+  font-size: 20px;
+  line-height: 2.2;
+  color: #2e2e2e;
+  margin-top: 20px;
+  font-size: 1.1rem;
+}
+
+.highlight-title-ishaq {
+  font-weight: bold;
+  font-size: 24px;
+  color: #854d0e;
+  margin-bottom: 5px;
+  text-align: center;
+  display: block;
+}
+
+.sub-title-ishaq {
+  font-size: 18px;
+  color: #777;
+  text-align: center;
+  display: block;
+}
+
+.duaa {
+  display: inline;
+  color: #0056b3;
+  font-weight: bold;
+  font-style: italic;
+  direction: rtl;
+  font-family: "Lateef", "Amiri", "Noto Naskh Arabic", serif;
+  font-size: 1.6rem;
+  padding: 0px 4px;
+  border-radius: 10px;
+}
+
+.edition{
+  color:red;
+  display:flex;
+  justify-content:center;
+  font-size:20px;
+}
+
+.navigation-buttons-single-prev-contents-sayings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.single-prev-button-contents-sayings {
+  background: linear-gradient(#136a8a, #267871);
+  color: white;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.single-prev-button-contents-sayings:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 91, 187, 0.3);
+}
+
+.section-heading {
+  font-size: 22px;
+  font-weight: bold;
+  color: #004085;
+  padding: 10px 16px;
+  border-radius: 6px;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.content-list {
+  list-style-type: decimal;
+  padding-right: 24px;
+  margin-bottom: 20px;
+}
+
+.content-list li {
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.content-list a {
+  text-decoration: underline;
+  color: blue;
+}
+
+.content-list a:hover {
+  text-decoration: underline;
+  color: #ff6f61;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.unwan-number{
+  display: block;
+  font-size:30px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .contents-container {
+    max-width: 900px;
+    margin: 0 auto;
+    width: 85%;
+  }
+}
+
+@media (max-width: 425px) {
+  .content-item > div:last-child {
+    font-size: 14px; 
+
+  }
+  
+  .content-item > div:first-child {
+    font-size: 12px; 
+  }
+  
+  .table-labels {
+    grid-template-columns: 80px 1fr; 
+    padding: 10px 15px; 
+    font-size: 16px; 
+  }
+  
+   .content-item {
+     grid-template-columns: 60px 1fr; 
+    }
+  }
+  
+  @media (max-width: 425px) {
+    .detail-heading {
+    font-size: 20px;
+  }
+  
+  .detail-content p {
+    font-size: 16px;
+  }
+  
+  .duaa{
+    font-size: 20px !important;  }
+  }
+  
+  @media (max-width: 425px) {
+    .highlight-title-ishaq {
+      font-size: 18px;
+    }
+  
+    .sub-title-ishaq{
+      font-size: 17px;
+    }
+  }
+  
+
+  
+  
+  
