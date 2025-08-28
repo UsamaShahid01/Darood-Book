@@ -299,48 +299,6 @@
   color: #ff6f61;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .unwan-number{
   display: block;
   font-size:30px;
@@ -348,27 +306,10 @@
   text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 768px) {
   .contents-container {
     max-width: 900px;
-    margin: 0 auto;
+    margin: 20px auto;
     width: 85%;
   }
 }
