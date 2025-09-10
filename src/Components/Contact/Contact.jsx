@@ -44,9 +44,9 @@ const Contact = ({ language }) => {
             {language === 'ur' ? 'رابطہ کریں' : 'Get in Touch'}
           </h3>
 
-          <p>Email: usamashahidrandhawa1@gmail.com</p>
-          <p>{'Phone:'} +92-313-7793410</p>
-          <p>{'Location: 56-C Samanabad, Faisalabad, Pakistan'}</p>
+          <p>Email: <br /> usamashahidrandhawa1@gmail.com</p>
+          <p>Phone: <br /> +92-313-7793410</p>
+          <p>Location: <br />56-C Samanabad, Faisalabad, Pakistan'</p>
 
           {/* Social Sites Heading */}
           <h3 className="social-heading">
