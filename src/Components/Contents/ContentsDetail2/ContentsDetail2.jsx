@@ -55,13 +55,6 @@ const ContentsDetail2 = ({ language }) => {
 
 
         <div className="navigation-buttons-next-prev-contents-sayings">
-          <button className="next-prev-buttons-contents-sayings" onClick={handlePrevious}>
-            {isUrdu ? (
-              <span className="urdu-font">پچھلا صفحہ</span>
-            ) : (
-              'Previous'
-            )}
-          </button>
           <button className="next-prev-buttons-contents-sayings" onClick={handleNext}>
             {isUrdu ? (
               <span className="urdu-font">اگلا صفحہ</span>
@@ -69,6 +62,20 @@ const ContentsDetail2 = ({ language }) => {
               'Next'
             )}
           </button>
+          <button className="next-prev-buttons-contents-sayings" onClick={handlePrevious}>
+            {isUrdu ? (
+              <span className="urdu-font">پچھلا صفحہ</span>
+            ) : (
+              'Previous'
+            )}
+          </button>
+          {/* <button className="next-prev-buttons-contents-sayings" onClick={handleNext}>
+            {isUrdu ? (
+              <span className="urdu-font">اگلا صفحہ</span>
+            ) : (
+              'Next'
+            )}
+          </button> */}
         </div>
       </div>
     </div>
