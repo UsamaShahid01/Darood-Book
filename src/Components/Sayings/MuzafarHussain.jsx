@@ -61,9 +61,6 @@ const MuzafarHussain = ({ language = 'en' }) => {
         </p>
 
         <div className="navigation-buttons-next-prev-contents-sayings">
-          <button className="next-prev-buttons-contents-sayings" onClick={handlePrevious}>
-            {isUrdu ? <span className="urdu-font">پچھلا صفحہ</span> : 'Previous'}
-          </button>
           <button
             type="button"
             className={`next-prev-buttons-contents-sayings ${isUrdu ? 'urdu-next' : ''}`}
@@ -71,6 +68,17 @@ const MuzafarHussain = ({ language = 'en' }) => {
           >
             {isUrdu ? 'اگلا صفحہ' : 'Next'}
           </button>
+          
+          <button className="next-prev-buttons-contents-sayings" onClick={handlePrevious}>
+            {isUrdu ? <span className="urdu-font">پچھلا صفحہ</span> : 'Previous'}
+          </button>
+          {/* <button
+            type="button"
+            className={`next-prev-buttons-contents-sayings ${isUrdu ? 'urdu-next' : ''}`}
+            onClick={handleNext}
+          >
+            {isUrdu ? 'اگلا صفحہ' : 'Next'}
+          </button> */}
         </div>
       </div>
     </div>
