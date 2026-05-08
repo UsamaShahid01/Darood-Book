@@ -79,9 +79,6 @@
 }
 
 .download-readonline-button {
-  /* display: flex; */
-  /* justify-content: center; */
-  /* gap: 45px; */
   padding:20px
 }
 
@@ -168,6 +165,9 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+  .button-pulse-button{
+  padding: 12px 40px;
   }
 
 }
