@@ -41,12 +41,12 @@ const Contact = ({ language }) => {
       <div className="contact-content">
         <div className="contact-info">
           <h3 className="get-in-toucing-heading">
-            {language === 'ur' ? 'رابطہ کریں' : 'Get in Touch'}
+            {language === 'ur' ? 'ہم تک پہنچیں' : 'Get in Touch'}
           </h3>
 
           <p>Email: <br /> usamashahidrandhawa1@gmail.com</p>
           <p>Phone: <br /> +92-313-7793410</p>
-          <p>Location: <br />56-C Samanabad, Faisalabad, Pakistan'</p>
+          <p>Location: <br />56-C Samanabad, Faisalabad, Pakistan</p>
 
           {/* Social Sites Heading */}
           <h3 className="social-heading">
