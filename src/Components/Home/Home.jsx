@@ -45,7 +45,7 @@ const Home = () => {
         <p className="darood-line">
           درودِ پاک، نبی کریم <strong>ﷺ</strong> پر بھیجی جانے والی وہ بابرکت دعا ہے جو ربِ کریم نے اپنے محبوب کے لیے امت کو عطا فرمائی . یہ عشقِ رسول <strong>ﷺ</strong> کا انمول اظہار ہے۔
         </p>
-        <p className="subtitle">Learn for your Akhirat</p>
+        {/* <p className="subtitle">Learn for your Akhirat</p> */}
         <div className="download-readonline-button">
           <button className="button-pulse-button" onClick={handleDownload}>
             Download Pdf
