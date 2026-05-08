@@ -79,9 +79,10 @@
 }
 
 .download-readonline-button {
-  display: flex;
-  justify-content: center;
-  gap: 45px;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* gap: 45px; */
+  padding:20px
 }
 
 .darood-line {

@@ -47,9 +47,9 @@ const Home = () => {
         </p>
         {/* <p className="subtitle">Learn for your Akhirat</p> */}
         <div className="download-readonline-button">
-          <button className="button-pulse-button" onClick={handleDownload}>
+          {/* <button className="button-pulse-button" onClick={handleDownload}>
             Download Pdf
-          </button>
+          </button> */}
           <button className="button-pulse-button" onClick={handleReadOnline}>
             Read Online
           </button>
