@@ -74,13 +74,6 @@
 }
 }
 
-@media (hover: none), (pointer: coarse) {
-  .content-list a:hover {
-    text-decoration: none !important;
-    color: blue !important;
-  }
-}
-
 .content-item.active {
   background-color: burlywood;
   border-right: 3px solid #c8b99b;
@@ -356,5 +349,22 @@
   
     .sub-title-ishaq{
       font-size: 17px;
+    }
+  }
+   
+  @media (hover: none), (pointer: coarse) {
+    .content-list a:hover,
+    .content-list a:active,
+    .content-list a:focus {
+      text-decoration: none !important;
+      color: blue !important;
+      background: transparent !important;
+    }
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .content-list a:hover {
+      text-decoration: underline;
+      color: #ff6f61;
     }
   }
