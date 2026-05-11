@@ -52,13 +52,14 @@
   position: relative;
 }
 
-
+@media (hover: hover) and (pointer: fine) {
 .content-item:hover {
   background: linear-gradient(#136a8a, #267871);
   box-shadow: 0 6px 16px rgba(160, 120, 80, 0.25);
   border-right: 4px solid #ffd700;
   color: white;
   z-index: 1;
+}
 }
 
 .content-item.active {
