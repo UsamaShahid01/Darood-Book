@@ -50,7 +50,8 @@ const App = () => {
     <Router>
       <Navbar language={language} setLanguage={setLanguage} />
       <Routes>
-        <Route path="/" element={<Home />} />
+        {/* <Route path="/" element={<Home />} /> */}
+        <Route path="/" element={<Home language={language} />} />
         <Route path="/contents" element={<Contents />} />
         <Route path="/contact" element={<Contact language={language} />} />
         <Route path="/author" element={<Author language={language} />} />
