@@ -48,14 +48,12 @@ const Contact = ({ language }) => {
           <p>Phone: <br /> +92-313-7793410</p>
           <p>Location: <br />56-C Samanabad, Faisalabad, Pakistan</p>
 
-          {/* Social Sites Heading */}
           <h3 className="social-heading">
             {language === 'ur' ? 'ہم سے آن لائن جڑیں' : 'Let’s Connect'}
           </h3>
 
 
           <div className="social-icons">
-            {/* Facebook */}
             <a
               href="https://www.facebook.com/usama.shahid.randhawa"
               target="_blank"
@@ -68,7 +66,6 @@ const Contact = ({ language }) => {
               />
             </a>
 
-            {/* LinkedIn */}
             <a
               href="https://www.linkedin.com/in/usama-shahid-randhawa/"
               target="_blank"
@@ -93,11 +90,7 @@ const Contact = ({ language }) => {
                 className="social-img"
               />
             </a> */}
-
-
           </div>
-
-
         </div>
 
         <div className="contact-form">
@@ -130,5 +123,4 @@ const Contact = ({ language }) => {
     </div>
   );
 };
-
 export default Contact;
