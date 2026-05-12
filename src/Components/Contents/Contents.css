@@ -361,10 +361,3 @@
       background: transparent !important;
     }
   }
-
-  @media (hover: hover) and (pointer: fine) {
-    .content-list a:hover {
-      text-decoration: underline;
-      color: #ff6f61;
-    }
-  }

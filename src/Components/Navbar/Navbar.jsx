@@ -57,7 +57,9 @@ const Navbar = ({ language, setLanguage }) => {
 
   return (
     <div className="navbar">
-      <img src="/name.jpg" alt="Logo" className="nav-logo" />
+      <NavLink to="/">
+  <img src="/name.jpg" alt="Logo" className="nav-logo" />
+</NavLink>
 
       <div className="hamburger" onClick={() => setIsMenuOpen(!isMenuOpen)}>
         {isMenuOpen ? <FaTimes /> : <FaBars />}

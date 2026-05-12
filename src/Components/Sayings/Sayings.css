@@ -31,3 +31,6 @@ strong{
     font-size: 1px;
   }
 }
+li {
+  list-style-position: inside;
+}
