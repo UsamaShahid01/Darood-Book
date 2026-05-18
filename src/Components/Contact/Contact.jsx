@@ -8,28 +8,16 @@ const Contact = ({ language }) => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+
     emailjs
-      .sendForm(
-        'service_u9ni1i3',
-        'template_rkvunlm',
-        form.current,
-        'D4moz76iWtxqUI1QO'
-      )
+      .sendForm( 'service_u9ni1i3', 'template_rkvunlm', form.current, 'D4moz76iWtxqUI1QO' )
       .then(
         () => {
-          alert(
-            language === 'ur'
-              ? '✅ پیغام کامیابی سے بھیج دیا گیا!'
-              : '✅ Message sent successfully!'
-          );
+          alert( language === 'ur' ? '✅ پیغام کامیابی سے بھیج دیا گیا!' : '✅ Message sent successfully!' );
           form.current.reset();
         },
         (error) => {
-          alert(
-            language === 'ur'
-              ? '❌ پیغام بھیجنے میں ناکامی۔ دوبارہ کوشش کریں۔'
-              : '❌ Failed to send message. Try again.'
-          );
+          alert( language === 'ur' ? '❌ پیغام بھیجنے میں ناکامی۔ دوبارہ کوشش کریں۔' : '❌ Failed to send message. Try again.' );
           console.error(error.text);
         }
       );
@@ -39,42 +27,21 @@ const Contact = ({ language }) => {
     <div className="contact-container">
       <div className="contact-content">
         <div className="contact-info">
-          <h3 className="get-in-toucing-heading">
-            {language === 'ur' ? 'ہم تک پہنچیں' : 'Get in Touch'}
-          </h3>
+          <h3 className="get-in-toucing-heading"> {language === 'ur' ? 'ہم تک پہنچیں' : 'Get in Touch'} </h3>
 
           <p>Email: <br /> usamashahidrandhawa1@gmail.com</p>
           <p>Phone: <br /> +92-313-7793410</p>
           <p>Location: <br />56-C Samanabad, Faisalabad, Pakistan</p>
 
-          <h3 className="social-heading">
-            {language === 'ur' ? 'ہم سے آن لائن جڑیں' : 'Let’s Connect'}
-          </h3>
-
+          <h3 className="social-heading"> {language === 'ur' ? 'ہم سے آن لائن جڑیں' : 'Let’s Connect'} </h3>
 
           <div className="social-icons">
-            <a
-              href="https://www.facebook.com/usama.shahid.randhawa"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg"
-                alt="Facebook"
-                className="social-img"
-              />
+            <a href="https://www.facebook.com/usama.shahid.randhawa" target="_blank" rel="noopener noreferrer" >
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg" alt="Facebook" className="social-img" />
             </a>
 
-            <a
-              href="https://www.linkedin.com/in/usama-shahid-randhawa/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
-                alt="LinkedIn"
-                className="social-img"
-              />
+            <a href="https://www.linkedin.com/in/usama-shahid-randhawa/" target="_blank" rel="noopener noreferrer" >
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" className="social-img" />
             </a>
           </div>
         </div>
@@ -82,27 +49,10 @@ const Contact = ({ language }) => {
         <div className="contact-form">
           <h2>{language === 'ur' ? 'ہم سے رابطہ کریں' : 'Contact Us'}  </h2 >
           <form ref={form} onSubmit={sendEmail}>
-            <input
-              type="text"
-              name="name"
-              placeholder={language === 'ur' ? 'آپ کا نام' : 'Your Name'}
-              required
-            />
-            <input
-              type="email"
-              name="email"
-              placeholder={language === 'ur' ? 'آپ کا ای میل' : 'Your Email'}
-              required
-            />
-            <textarea
-              name="message"
-              rows="5"
-              placeholder={language === 'ur' ? 'آپ کا پیغام' : 'Your Message'}
-              required
-            ></textarea>
-            <button type="submit" className='send-message-button'>
-              {language === 'ur' ? 'پیغام بھیجیں' : 'Send Message'}
-            </button>
+            <input type="text" name="name" placeholder={language === 'ur' ? 'آپ کا نام' : 'Your Name'} required />
+            <input type="email" name="email" placeholder={language === 'ur' ? 'آپ کا ای میل' : 'Your Email'} required />
+            <textarea name="message" rows="5" placeholder={language === 'ur' ? 'آپ کا پیغام' : 'Your Message'} required ></textarea>
+            <button type="submit" className='send-message-button'> {language === 'ur' ? 'پیغام بھیجیں' : 'Send Message'} </button>
           </form>
         </div>
       </div>

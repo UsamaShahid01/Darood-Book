@@ -25,17 +25,11 @@ const AbdulMajid = ({ language = 'en' }) => {
       <div className="detail-content">
         <h2 className="detail-heading"><span>پروفیسر ڈاکٹر عبدالمجید صاحب چشتی</span></h2>
         <p className="detail-text">
-          <span className="duaa">
-            نحمده و نصلی علی رسوله الكريم و علی آله و اصحابه اجمعیّن
-          </span>
+          <span className="duaa"> نحمده و نصلی علی رسوله الكريم و علی آله و اصحابه اجمعیّن </span>
           &nbsp;&nbsp;&nbsp;
-          <span>
-            اس گراں قدر پیش کش کے مرتب
-          </span>
+          <span> اس گراں قدر پیش کش کے مرتب </span>
           &nbsp;&nbsp;&nbsp;
-          <span className="highlight-name">
-            حافظ محمد سلیمان
-          </span>
+          <span className="highlight-name"> حافظ محمد سلیمان </span>
           &nbsp;&nbsp;&nbsp;
 
           صاحب کا میں کن الفاظ میں شکریہ ادا کروں جنھوں نے ایسے بابرکت کام میں مجھ جیسے ہیچمداں کو ایسے چیدہ اور برگزیدہ گروہ میں شمولیت کا شرف بخشا۔ بات دراصل کریم کے کرم کی ہے وہ جسے چاہیں نواز دیں۔
@@ -128,31 +122,15 @@ const AbdulMajid = ({ language = 'en' }) => {
             خواہش خلد رہی اور نہ کوئی حسرت<br />
             جتنی باقی ہے مدینہ میں بسر ہو جائے۔
           </div>
-
         </p>
 
         <div className="navigation-buttons-next-prev-contents-sayings">
-          <button
-            type="button"
-            className={`next-prev-buttons-contents-sayings ${isUrdu ? 'urdu-next' : ''}`}
-            onClick={handleNext}
-          >
+          <button type="button" className={`next-prev-buttons-contents-sayings ${isUrdu ? 'urdu-next' : ''}`} onClick={handleNext} >
             {isUrdu ? 'اگلا صفحہ' : 'Next'}
           </button>
           <button className="next-prev-buttons-contents-sayings" onClick={handlePrevious}>
-            {isUrdu ? (
-              <span className="urdu-font">پچھلا صفحہ</span>
-            ) : (
-              'Previous'
-            )}
+            {isUrdu ? ( <span className="urdu-font">پچھلا صفحہ</span> ) : ( 'Previous' )}
           </button>
-          {/* <button
-            type="button"
-            className={`next-prev-buttons-contents-sayings ${isUrdu ? 'urdu-next' : ''}`}
-            onClick={handleNext}
-          >
-            {isUrdu ? 'اگلا صفحہ' : 'Next'}
-          </button> */}
         </div>
       </div>
     </div>

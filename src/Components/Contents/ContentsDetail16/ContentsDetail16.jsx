@@ -21,10 +21,7 @@ const ContentsDetail16 = ({ language }) => {
       {/* <SideNav /> */}
 
       <div className="detail-content">
-        <h2 className="detail-heading">
-          <span>تاثرات</span>
-        </h2>
-
+        <h2 className="detail-heading"> <span>تاثرات</span> </h2>
         <div className="detail-text">
           <h2 className="section-heading">علماء کرام و مبلغین اسلام:</h2>
           <ul className="content-list">
@@ -50,14 +47,11 @@ const ContentsDetail16 = ({ language }) => {
             <li><Link to="/sayings/tariq-ismael">جناب طارق اسماعیل ساگر صاحب: پاکستان کے نہایت ہی مقبول اور ہر دلعزیز ادیب۔</Link></li>
             <li><Link to="/sayings/rafiq">جناب محمد رفیق صاحب: پاکستانی نژاد کے ایک نو نہار نمائندہ اور ان شاء اللہ اکیسویں صدی میں اسلام کی نشاۃ ثانیہ میں ایک  بھرپور کردار ادا کرنے کے اہل۔</Link></li>
             <li><Link to="/sayings/saeed-anwar"> پروفیسر ڈاکٹر محمد سعید انور صاحب:پاکستان کے نہایت ہی مقبول اور ہر دلعزیز ادیب۔ </Link></li>
-
           </ul>
         </div>
 
         <div className="navigation-buttons-single-prev-contents-sayings">
-          <button className="single-prev-button-contents-sayings" onClick={handlePrevious}>
-            {isUrdu ? <span className="urdu-font">پچھلا صفحہ</span> : 'Previous'}
-          </button>
+          <button className="single-prev-button-contents-sayings" onClick={handlePrevious}> {isUrdu ? <span className="urdu-font">پچھلا صفحہ</span> : 'Previous'} </button>
         </div>
       </div>
     </div>

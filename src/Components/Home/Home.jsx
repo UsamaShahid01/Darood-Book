@@ -20,43 +20,22 @@ const Home = ({ language }) => {
   };
 
   // Language labels
-  const labels = {
-    en: {
-      readOnline: 'Read Online',
-    },
-    ur: {
-      readOnline: 'آن لائن مطالعہ کریں',
-    },
-  };
-
+  const labels = { en: { readOnline: 'Read Online', }, ur: { readOnline: 'آن لائن مطالعہ کریں', }, };
   const currentLabels = labels[language];
 
   return (
     <div className="home-container">
       <div className="left-side">
-        <img
-          src="/main-page.png"
-          className={`image ${showSecondImage ? 'hidden' : 'visible'}`}
-        />
-
-        <img
-          src="last-page.jpeg"
-          className={`image ${showSecondImage ? 'visible' : 'hidden'}`}
-        />
+        <img src="/main-page.png" className={`image ${showSecondImage ? 'hidden' : 'visible'}`} />
+        <img src="last-page.jpeg" className={`image ${showSecondImage ? 'visible' : 'hidden'}`} />
       </div>
 
       <div className="right-side">
         <h1 className="title">📖 درودِ پاک ﷺ</h1>
-
-        <p className="darood-line">
-          درودِ پاک، نبی کریم <strong>ﷺ</strong> پر بھیجی جانے والی وہ بابرکت دعا ہے جو ربِ کریم نے اپنے محبوب کے لیے امت کو عطا فرمائی ۔ یہ عشقِ رسول <strong>ﷺ</strong> کا انمول اظہار ہے۔
-        </p>
+        <p className="darood-line"> درودِ پاک، نبی کریم <strong>ﷺ</strong> پر بھیجی جانے والی وہ بابرکت دعا ہے جو ربِ کریم نے اپنے محبوب کے لیے امت کو عطا فرمائی ۔ یہ عشقِ رسول <strong>ﷺ</strong> کا انمول اظہار ہے۔ </p>
 
         <div className="download-readonline-button">
-          <button
-            className="button-pulse-button"
-            onClick={handleReadOnline}
-          >
+          <button className="button-pulse-button" onClick={handleReadOnline} >
             {currentLabels.readOnline}
           </button>
         </div>

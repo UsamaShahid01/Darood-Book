@@ -28,23 +28,13 @@ const ContentsDetail6 = ({ language }) => {
 
       <div className="detail-content">
         <h2 className="detail-heading"><span>صلوٰۃ و سلام بھیجنے والوں کے لیے بشارتیں</span></h2>
-
         <p className="detail-text-refined-text">
-          <span className="duaa">
-            عن ابی هريرة ان رسول الله <strong>صلى الله عليه وآله وسلم</strong>
-            قال من صلى على واحدة صلى الله عليه عشرا -<br />
-            [صحیح مسلم، کتاب الصلاة، باب الصلاة على النبی <strong>صلى الله عليه وآله وسلم</strong>
-            بعد التشهد
-            ]          </span> <br />
+          <span className="duaa"> عن ابی هريرة ان رسول الله <strong>صلى الله عليه وآله وسلم</strong> قال من صلى على واحدة صلى الله عليه عشرا -<br /> [صحیح مسلم، کتاب الصلاة، باب الصلاة على النبی <strong>صلى الله عليه وآله وسلم</strong> بعد التشهد ] </span> <br />
           حضرت ابو ہریرہ رضی اللہ عنہ نے رسول اکرم <strong>صلى الله عليه وآله وسلم</strong>
           کا ارشاد عالی بیان کیا ہے: جو شخص مجھ پر ایک مرتبہ درود پڑھے گا اللہ تعالیٰ اُس پر دس مرتبہ اپنی بے پایاں رحمتیں نازل فرمائے گا اور خصوصی عنایات سے نوازے گا۔
 
-          <br />          <span className="duaa">
-            عن عبد الله بن ابی طلحة عن ابيه ان رسول الله <strong>صلى الله عليه وآله وسلم</strong>
-            جاء ذات يوم والبشرى يرى فی وجهه فقال انه جاء نی جبريل عليه السلام فقال : اما يرضيك يا <strong>محمد</strong> ان لا يصلى عليك احد من امتك الا صليت عليه عشرا و لا يسلم عليك احدا من امتك الا سلمت عليه عشرا.<br />
-            [سنن النسائى ، كتاب السهو، باب الفضل فی الصلاة على النبی <strong>صلى الله عليه وآله وسلم</strong>
-            ]
-          </span><br />
+            <br />         
+           <span className="duaa"> عن عبد الله بن ابی طلحة عن ابيه ان رسول الله <strong>صلى الله عليه وآله وسلم</strong> جاء ذات يوم والبشرى يرى فی وجهه فقال انه جاء نی جبريل عليه السلام فقال : اما يرضيك يا <strong>محمد</strong> ان لا يصلى عليك احد من امتك الا صليت عليه عشرا و لا يسلم عليك احدا من امتك الا سلمت عليه عشرا.<br /> [سنن النسائى ، كتاب السهو، باب الفضل فی الصلاة على النبی <strong>صلى الله عليه وآله وسلم</strong> ] </span><br />
 
 
           حضرت ابوطلحہ رضی اللہ عنہ سے روایت ہے: ایک دن رسول اللہ <strong>صلى الله عليه وآله وسلم</strong>
@@ -79,13 +69,7 @@ const ContentsDetail6 = ({ language }) => {
           فرمائی   (وہ نعمت یہ ہے)  کہ جو شخص مجھ پر ایک دفعہ درود پڑھے گا اللہ تعالیٰ اس کے لیے دس نیکیاں لکھ دے گا۔
 
           <br />
-          <span className="duaa">
-            عن انس بن مالك قال قال رسول الله <strong>صلى الله عليه و آله و سلم</strong> من صلى على صلاة واحدة صلى الله عليه عشر صلوات و حطت عنه
-            عشر خطيئات و رفعت له عشر درجات.<br />
-            [سنن النسائى كتاب السهو باب الفضل فی الصلاة على النبی <strong>صلى الله عليه وآله وسلم</strong>
-            ]
-          </span> <br />
-
+          <span className="duaa"> عن انس بن مالك قال قال رسول الله <strong>صلى الله عليه و آله و سلم</strong> من صلى على صلاة واحدة صلى الله عليه عشر صلوات و حطت عنه عشر خطيئات و رفعت له عشر درجات.<br /> [سنن النسائى كتاب السهو باب الفضل فی الصلاة على النبی <strong>صلى الله عليه وآله وسلم</strong> ] </span> <br />
 
           حضرت انس بن مالک رضی اللہ عنہ روایت کرتے ہیں: رسول اللہ <strong>صلى الله عليه وآله وسلم</strong>
           نے فرمایا: جو کوئی مجھ پر ایک بار درود پڑھے گا، اللہ تعالیٰ اس پر دس بار بے پایاں
@@ -99,15 +83,8 @@ const ContentsDetail6 = ({ language }) => {
         </p>
 
         <div className="navigation-buttons-next-prev-contents-sayings">
-          <button className="next-prev-buttons-contents-sayings" onClick={handleNext}>
-            {isUrdu ? <span className="urdu-font">اگلا صفحہ</span> : 'Next'}
-          </button>
-          <button className="next-prev-buttons-contents-sayings" onClick={handlePrevious}>
-            {isUrdu ? <span className="urdu-font">پچھلا صفحہ</span> : 'Previous'}
-          </button>
-          {/* <button className="next-prev-buttons-contents-sayings" onClick={handleNext}>
-            {isUrdu ? <span className="urdu-font">اگلا صفحہ</span> : 'Next'}
-          </button> */}
+          <button className="next-prev-buttons-contents-sayings" onClick={handleNext}> {isUrdu ? <span className="urdu-font">اگلا صفحہ</span> : 'Next'} </button>
+          <button className="next-prev-buttons-contents-sayings" onClick={handlePrevious}> {isUrdu ? <span className="urdu-font">پچھلا صفحہ</span> : 'Previous'} </button>
         </div>
       </div>
     </div>
@@ -115,4 +92,3 @@ const ContentsDetail6 = ({ language }) => {
 };
 
 export default ContentsDetail6;
-

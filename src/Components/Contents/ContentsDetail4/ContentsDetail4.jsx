@@ -27,29 +27,16 @@ const ContentsDetail4 = ({ language }) => {
       <div className="detail-content">
         <h2 className="detail-heading"><span>کلام ربانی میں صلوٰۃ و سلام کا حکم</span></h2>
         <p className="detail-text-refined-text">
-
           <p>
-            <span className="duaa">
-              إِنَّ الله وَ مَلبِكَتَهُ يُصَلُّونَ عَلَى النَّبِيِّ ، يَأَيُّهَا الَّذِينَ امَنُوا صَلُّوا عَلَيْهِ وَسَلِّمُوا تَسْلِيمًا.
-              <br />
-              [٣٣: الاحزاب : ٥٦]
-            </span>
+            <span className="duaa"> إِنَّ الله وَ مَلبِكَتَهُ يُصَلُّونَ عَلَى النَّبِيِّ ، يَأَيُّهَا الَّذِينَ امَنُوا صَلُّوا عَلَيْهِ وَسَلِّمُوا تَسْلِيمًا. <br /> [٣٣: الاحزاب : ٥٦] </span>
             <br />
             الله <strong>پیغمبر ﷺ</strong> پر اپنی رحمت اتارتا ہے اور فرشتے <strong>پیغمبر ﷺ</strong> پر درود بھیجتے ہیں ۔ اے لوگو جو ایمان لائے ہو تم بھی <strong>پیغمبر ﷺ</strong> پر درود بھیجو اور خوب خوب سلام بھیجو۔
           </p>
-
         </p>
 
         <div className="navigation-buttons-next-prev-contents-sayings">
-          <button className="next-prev-buttons-contents-sayings" onClick={handleNext}>
-            {isUrdu ? <span className="urdu-font">اگلا صفحہ</span> : 'Next'}
-          </button>
-          <button className="next-prev-buttons-contents-sayings" onClick={handlePrevious}>
-            {isUrdu ? <span className="urdu-font">پچھلا صفحہ</span> : 'Previous'}
-          </button>
-          {/* <button className="next-prev-buttons-contents-sayings" onClick={handleNext}>
-            {isUrdu ? <span className="urdu-font">اگلا صفحہ</span> : 'Next'}
-          </button> */}
+          <button className="next-prev-buttons-contents-sayings" onClick={handleNext}> {isUrdu ? <span className="urdu-font">اگلا صفحہ</span> : 'Next'} </button>
+          <button className="next-prev-buttons-contents-sayings" onClick={handlePrevious}> {isUrdu ? <span className="urdu-font">پچھلا صفحہ</span> : 'Previous'} </button>
         </div>
       </div>
     </div>

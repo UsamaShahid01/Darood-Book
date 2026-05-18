@@ -19,7 +19,6 @@ const ContentsDetail2 = ({ language }) => {
     navigate('/contents/detail/3');
   };
 
-
   const isUrdu = language === 'ur';
 
   return (
@@ -56,26 +55,11 @@ const ContentsDetail2 = ({ language }) => {
 
         <div className="navigation-buttons-next-prev-contents-sayings">
           <button className="next-prev-buttons-contents-sayings" onClick={handleNext}>
-            {isUrdu ? (
-              <span className="urdu-font">اگلا صفحہ</span>
-            ) : (
-              'Next'
-            )}
+            {isUrdu ? ( <span className="urdu-font">اگلا صفحہ</span> ) : ( 'Next' )}
           </button>
           <button className="next-prev-buttons-contents-sayings" onClick={handlePrevious}>
-            {isUrdu ? (
-              <span className="urdu-font">پچھلا صفحہ</span>
-            ) : (
-              'Previous'
-            )}
+            {isUrdu ? ( <span className="urdu-font">پچھلا صفحہ</span> ) : ( 'Previous' )}
           </button>
-          {/* <button className="next-prev-buttons-contents-sayings" onClick={handleNext}>
-            {isUrdu ? (
-              <span className="urdu-font">اگلا صفحہ</span>
-            ) : (
-              'Next'
-            )}
-          </button> */}
         </div>
       </div>
     </div>

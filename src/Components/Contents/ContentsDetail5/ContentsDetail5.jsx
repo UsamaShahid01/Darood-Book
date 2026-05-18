@@ -25,19 +25,11 @@ const ContentsDetail5 = ({ language }) => {
   return (
     <div className="detail-layout">
       {/* <SideNav /> */}
-
       <div className="detail-content">
         <h2 className="detail-heading"><span>لفظ صلوٰۃ کے مختلف مفاہیم</span></h2>
-
         <p className="detail-text-refined-text">
-          <span className="duaa">
-            سورۃ الاحزاب کی آیہ مبارکہ نمبر 56
-          </span>
+          <span className="duaa"> سورۃ الاحزاب کی آیہ مبارکہ نمبر 56 </span>
           میں مومنین کو نبی اکرم <strong>محمد صلی اللہ علیہ وسلم</strong> پر جس صلاۃ کے بھیجنے کا حکم دیا گیا ہے اس کا مفہوم مولانا مودودی  رحمۃ اللہ علیہ
-
-
-
-
           نے یوں بیان کیا ہے:
 
           "صلاۃ کا لفظ جب علی کے صلہ کے ساتھ آتا ہے تو اس کے تین معنی ہوتے ہیں۔ ایک کسی پر مائل ہونا، اس کی طرف محبت کے ساتھ متوجہ ہونا
@@ -47,18 +39,10 @@ const ContentsDetail5 = ({ language }) => {
           <strong>محمد صلی اللہ علیہ وسلم</strong> کے حق میں صَلُّوا عَلَیہ کا حکم دینے کا مطلب یہ ہے کہ تم ان کے لیے دعاء کرو۔"
           <br />
           <p className="duaa">(تفہیم القرآن ۔۔۔ جلد چہارم)</p>
-
         </p>
         <div className="navigation-buttons-next-prev-contents-sayings">
-          <button className="next-prev-buttons-contents-sayings" onClick={handleNext}>
-            {isUrdu ? <span className="urdu-font">اگلا صفحہ</span> : 'Next'}
-          </button>
-          <button className="next-prev-buttons-contents-sayings" onClick={handlePrevious}>
-            {isUrdu ? <span className="urdu-font">پچھلا صفحہ</span> : 'Previous'}
-          </button>
-          {/* <button className="next-prev-buttons-contents-sayings" onClick={handleNext}>
-            {isUrdu ? <span className="urdu-font">اگلا صفحہ</span> : 'Next'}
-          </button> */}
+          <button className="next-prev-buttons-contents-sayings" onClick={handleNext}> {isUrdu ? <span className="urdu-font">اگلا صفحہ</span> : 'Next'} </button>
+          <button className="next-prev-buttons-contents-sayings" onClick={handlePrevious}> {isUrdu ? <span className="urdu-font">پچھلا صفحہ</span> : 'Previous'} </button>
         </div>
       </div>
     </div>
@@ -66,4 +50,3 @@ const ContentsDetail5 = ({ language }) => {
 };
 
 export default ContentsDetail5;
-

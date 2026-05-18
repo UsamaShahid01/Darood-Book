@@ -23,12 +23,7 @@ const Rafiq = ({ language = 'en' }) => {
       <div className="detail-content">
         <h2 className="detail-heading"><span>جناب محمد رفیق صاحب</span></h2>
         <p className="detail-text">
-          <div className="poetry-block">
-            بلغ العلى بكماله<br />
-            كشف الدجى بجماله<br />
-            حسنت جميع خصاله<br />
-            صلوا عليه وآله
-          </div>
+          <div className="poetry-block"> بلغ العلى بكماله<br /> كشف الدجى بجماله<br /> حسنت جميع خصاله<br /> صلوا عليه وآله </div>
 
           <br />
           اللہ تعالیٰ نے اسلام کو ہمارا دین قرار دیا۔ اس دین پر
@@ -48,27 +43,12 @@ const Rafiq = ({ language = 'en' }) => {
         </p>
 
         <div className="navigation-buttons-next-prev-contents-sayings">
-          <button
-            type="button"
-            className={`next-prev-buttons-contents-sayings ${isUrdu ? 'urdu-next' : ''}`}
-            onClick={handleNext}
-          >
+          <button type="button" className={`next-prev-buttons-contents-sayings ${isUrdu ? 'urdu-next' : ''}`} onClick={handleNext} >
             {isUrdu ? 'اگلا صفحہ' : 'Next'}
           </button>
           <button className="next-prev-buttons-contents-sayings" onClick={handlePrevious}>
-            {isUrdu ? (
-              <span className="urdu-font">پچھلا صفحہ</span>
-            ) : (
-              'Previous'
-            )}
+            {isUrdu ? ( <span className="urdu-font">پچھلا صفحہ</span> ) : ( 'Previous' )}
           </button>
-          {/* <button
-            type="button"
-            className={`next-prev-buttons-contents-sayings ${isUrdu ? 'urdu-next' : ''}`}
-            onClick={handleNext}
-          >
-            {isUrdu ? 'اگلا صفحہ' : 'Next'}
-          </button> */}
         </div>
       </div>
     </div>
@@ -76,4 +56,3 @@ const Rafiq = ({ language = 'en' }) => {
 };
 
 export default Rafiq;
-

@@ -27,36 +27,18 @@ const ContentsDetail7 = ({ language }) => {
       {/* <SideNav /> */}
 
       <div className="detail-content">
-        <h2 className="detail-heading">
-          <span>ہدیہ صلوٰۃ و سلام کا رسولؐ  کی خدمت اقدس میں پہنچایا جانا</span>
-        </h2>
-
+        <h2 className="detail-heading"> <span>ہدیہ صلوٰۃ و سلام کا رسولؐ  کی خدمت اقدس میں پہنچایا جانا</span> </h2>
         <p className="detail-text-refined-text">
-          <span className="duaa">
-            عن عبد الله قال قال رسول الله <strong>ﷺ</strong> إِنَّ الله مَليكة سياحين فی
-            الارض يبلغونی من امتى السلام.
-          </span><br />
-          <span className="duaa">
-            [سنن النسائی، کتاب السهو باب السلام على النبی <strong>ﷺ</strong>]
-          </span><br />
+          <span className="duaa"> عن عبد الله قال قال رسول الله <strong>ﷺ</strong> إِنَّ الله مَليكة سياحين فی الارض يبلغونی من امتى السلام. </span><br />
+          <span className="duaa"> [سنن النسائی، کتاب السهو باب السلام على النبی <strong>ﷺ</strong>] </span><br />
           حضرت عبداللہ بن مسعود رضی اللہ عنہ&nbsp; بیان کرتے ہیں: <strong>رسول اللہ ﷺ</strong>
           نے فرمایا: بلا شبہ اللہ تعالیٰ نے فرشتے (متعین) فرمائے ہیں جو (روئے)
           زمین میں گشت کرتے رہتے ہیں (اور) میری امت کی جانب سے بھیجا گیا سلام مجھ تک پہنچاتے
           ہیں۔
           <br />
 
-          <span className="duaa">
-            عن ابی هريرة رضى الله عنه قال: قال رسول الله <strong>ﷺ</strong>: لا تتخذوا قبرى
-            عيدا ولا تجعلوا
-            بيوتكم قبورا وحيثما
-            كنتم فصلوا علی
-            فان صلاتكم تبلغنى.
-          </span><br />
-          <span className="duaa">
-            [الفتح الربانی لترتيب مسند الامام احمد بن حنبل الشيبانی الجزالرابع عشر ص ۳۰۷ باب وجوب الصلاة
-            على النبی --- فضل الصلاة على النبی للامام حافظ اسماعيل بن اسحاق القاضی الازدی
-            (متوفی ۲۸۲ ھ) بتصحيح الالبانی رقم الحدیث ٢٠]
-          </span><br />
+          <span className="duaa"> عن ابی هريرة رضى الله عنه قال: قال رسول الله <strong>ﷺ</strong>: لا تتخذوا قبرى عيدا ولا تجعلوا بيوتكم قبورا وحيثما كنتم فصلوا علی فان صلاتكم تبلغنى. </span><br />
+          <span className="duaa"> [الفتح الربانی لترتيب مسند الامام احمد بن حنبل الشيبانی الجزالرابع عشر ص ۳۰۷ باب وجوب الصلاة على النبی --- فضل الصلاة على النبی للامام حافظ اسماعيل بن اسحاق القاضی الازدی (متوفی ۲۸۲ ھ) بتصحيح الالبانی رقم الحدیث ٢٠] </span><br />
           حضرت ابوھریرہ رضی اللہ عنہ کہتے ہیں کہ <strong>رسول اللہ ﷺ</strong> نے فرمایا: میری قبر کو
           میلہ کی
           جگہ نہ
@@ -67,19 +49,8 @@ const ContentsDetail7 = ({ language }) => {
           بنانا (کہ گھروں میں سنن ونوافل بھی نہ ادا کرو) اور تم جہاں کہیں بھی ہو تو مجھ پر درود پڑھنا
           کہ تمھارا درود مجھے پہنچتا ہے۔
           <br />
-          <span className="duaa">
-            عن ابی بکر رضی الله عنه قال: قال رسول الله <strong>ﷺ</strong> اكثر وا الصلاة علی فإنَّ الله
-            وكَّل بی ملكا عند قبرى
-            فإذا صلى علی رجل من
-            امتى قال
-            لى ذلك الملك: يا
-            محمد إن فلان
-            ابن فلان صلّى عليك الساعة.
-          </span><br />
-          <span className="duaa">
-            [صحيح الجامع الصغير
-            و زيادته للالبانی ، المجلد الأول رقم الحديث : ۱۲۰۷ --- بحواله مسند الفردوس للد يلمی]
-          </span><br />
+          <span className="duaa"> عن ابی بکر رضی الله عنه قال: قال رسول الله <strong>ﷺ</strong> اكثر وا الصلاة علی فإنَّ الله وكَّل بی ملكا عند قبرى فإذا صلى علی رجل من امتى قال لى ذلك الملك: يا محمد إن فلان ابن فلان صلّى عليك الساعة. </span><br />
+          <span className="duaa"> [صحيح الجامع الصغير و زيادته للالبانی ، المجلد الأول رقم الحديث : ۱۲۰۷ --- بحواله مسند الفردوس للد يلمی] </span><br />
           حضرت ابو بکر صدیق رضی اللہ عنہ سے روایت ہے: <strong>رسول اللہ ﷺ</strong>
           نے فرمایا: مجھ پر کثرت
           سے درود   (شریف) پڑھا   کرو۔ اللہ  تعالیٰ نے   میری قبر  (مبارک)  کے نزدیک ایک فرشتہ
@@ -98,15 +69,8 @@ const ContentsDetail7 = ({ language }) => {
         </p>
 
         <div className="navigation-buttons-next-prev-contents-sayings">
-          <button className="next-prev-buttons-contents-sayings" onClick={handleNext}>
-            {isUrdu ? <span className="urdu-font">اگلا صفحہ</span> : 'Next'}
-          </button>
-          <button className="next-prev-buttons-contents-sayings" onClick={handlePrevious}>
-            {isUrdu ? <span className="urdu-font">پچھلا صفحہ</span> : 'Previous'}
-          </button>
-          {/* <button className="next-prev-buttons-contents-sayings" onClick={handleNext}>
-            {isUrdu ? <span className="urdu-font">اگلا صفحہ</span> : 'Next'}
-          </button> */}
+          <button className="next-prev-buttons-contents-sayings" onClick={handleNext}> {isUrdu ? <span className="urdu-font">اگلا صفحہ</span> : 'Next'} </button>
+          <button className="next-prev-buttons-contents-sayings" onClick={handlePrevious}> {isUrdu ? <span className="urdu-font">پچھلا صفحہ</span> : 'Previous'} </button>
         </div>
       </div>
     </div>
@@ -114,5 +78,3 @@ const ContentsDetail7 = ({ language }) => {
 };
 
 export default ContentsDetail7;
-
-

@@ -27,21 +27,9 @@ const ContentsDetail8 = ({ language }) => {
       {/* <SideNav /> */}
 
       <div className="detail-content">
-        <h2 className="detail-heading">
-          <span>دعاء کی قبولیت کے لیے ثناء و صلوٰۃ پڑھنے کی شرط</span>
-        </h2>
-
+        <h2 className="detail-heading"> <span>دعاء کی قبولیت کے لیے ثناء و صلوٰۃ پڑھنے کی شرط</span> </h2>
         <p className="detail-text-refined-text">
-          <span className="duaa">
-            عن عبد الله قال كنت اصلى والنبى <strong>صلى الله عليه و سلم</strong>
-            و ابوبکر و عمر معه فلما جلست بدأت بالثناء على الله ثم الصلاة على
-            النبی <strong>صلى الله عليه وسلم</strong> ثم دعوت لنفسى فقال النبی
-            <strong>صلى الله عليه و سلم</strong> سل تعطه سل تعطه.
-            <br />
-            [سنن الترمذی ، ابواب السفر ، باب الثناء على الله و الصلاة على النبی
-            <strong>صلى الله عليه وسلم</strong> قبل الدعاء]
-          </span><br />
-
+          <span className="duaa"> عن عبد الله قال كنت اصلى والنبى <strong>صلى الله عليه و سلم</strong> و ابوبکر و عمر معه فلما جلست بدأت بالثناء على الله ثم الصلاة على النبی <strong>صلى الله عليه وسلم</strong> ثم دعوت لنفسى فقال النبی <strong>صلى الله عليه و سلم</strong> سل تعطه سل تعطه. <br /> [سنن الترمذی ، ابواب السفر ، باب الثناء على الله و الصلاة على النبی <strong>صلى الله عليه وسلم</strong> قبل الدعاء] </span><br />
           حضرت عبداللہ بن مسعود رضی اللہ عنہ کہتے ہیں کہ میں نماز پڑھ رہا تھا۔ نبی اکرم
           <strong>صلى الله عليه وسلم</strong> تشریف فرما تھے۔ حضرت ابو بکر اور
           حضرت عمر رضی اللہ عنہما بھی آپؐ کے ہمراہ
@@ -51,18 +39,7 @@ const ContentsDetail8 = ({ language }) => {
           نے فرمایا: (اب) مانگ! تجھے دیا
           جائے گا، (اب) مانگ! تجھے دیا جائے گا۔
           <br />
-          <span className="duaa">
-            عن فضالة بن عبيد يقول سمع رسول الله <strong>صلى الله عليه وسلم</strong>
-            رجلا يدعو فى الصلاة لم يمجد الله و لم يصل على النبی <strong>صلى الله عليه وسلم</strong>
-            فقال رسول الله <strong>صلى الله عليه وسلم</strong>عجلت ايها المصلى
-            ثم علمهم رسول الله و سمع رسول الله
-            <strong>صلى الله عليه وسلم</strong> رجلاً يصلى فمجد الله وحمده و صلى على النبی
-            <strong>صلى الله عليه و سلم</strong> فقال رسول الله <strong>صلى الله عليه و سلم</strong>
-            ادع تجب و سل تعط.
-            <br />
-            [سنن النسائى ، كتاب السهو ، باب التمجيد والصلاة على النبی فی الصلاة]
-          </span><br />
-
+          <span className="duaa"> عن فضالة بن عبيد يقول سمع رسول الله <strong>صلى الله عليه وسلم</strong> رجلا يدعو فى الصلاة لم يمجد الله و لم يصل على النبی <strong>صلى الله عليه وسلم</strong> فقال رسول الله <strong>صلى الله عليه وسلم</strong>عجلت ايها المصلى ثم علمهم رسول الله و سمع رسول الله <strong>صلى الله عليه وسلم</strong> رجلاً يصلى فمجد الله وحمده و صلى على النبی <strong>صلى الله عليه و سلم</strong> فقال رسول الله <strong>صلى الله عليه و سلم</strong> ادع تجب و سل تعط. <br /> [سنن النسائى ، كتاب السهو ، باب التمجيد والصلاة على النبی فی الصلاة] </span><br />
           حضرت فضالہ بن عبید رضی اللہ عنہ سے روایت ہے  رسول اللہ
           <strong>صلى الله عليه وسلم</strong> نے ایک شخص کو نماز میں دعاء کرتے سنا۔ اس نے
           نہ تو اللہ کی بزرگی بیان کی، نہ ہی رسول اللہ <strong>صلى الله عليه وسلم</strong>
@@ -76,27 +53,18 @@ const ContentsDetail8 = ({ language }) => {
 
           <h3 className='unwan-number'>عنوان نمبر 3</h3><br />
           <strong>احادیث مبارکہ کا خلاصہ :</strong>
-
           رسول اکرم <strong>صلى الله عليه وسلم</strong> نے بہ تاکید یہ بشارت دی ہے
           کہ جب کوئی شخص دعا مانگنے سے قبل
           اللہ تعالیٰ کی ثناء کرتا ہے اور آپ <strong>صلى الله عليه وسلم</strong>
           پر درود شریف پڑھتا ہے تو اس کی دعا کو شرفِ قبولیت بخشا جاتا ہے۔ ایک شخص نے
           اللہ تعالیٰ   کی بزرگی        بیان کیے
           بغیر اور آپ <strong>صلى الله عليه وسلم</strong> پر درود شریف پڑھے بغیر دعا مانگی تو
-
           آپؐ  نے اسے تنبیہ فرمائی:"تو نے جلدی کی"۔
         </p>
 
         <div className="navigation-buttons-next-prev-contents-sayings">
-          <button className="next-prev-buttons-contents-sayings" onClick={handleNext}>
-            {isUrdu ? <span className="urdu-font">اگلا صفحہ</span> : 'Next'}
-          </button>
-          <button className="next-prev-buttons-contents-sayings" onClick={handlePrevious}>
-            {isUrdu ? <span className="urdu-font">پچھلا صفحہ</span> : 'Previous'}
-          </button>
-          {/* <button className="next-prev-buttons-contents-sayings" onClick={handleNext}>
-            {isUrdu ? <span className="urdu-font">اگلا صفحہ</span> : 'Next'}
-          </button> */}
+          <button className="next-prev-buttons-contents-sayings" onClick={handleNext}> {isUrdu ? <span className="urdu-font">اگلا صفحہ</span> : 'Next'} </button>
+          <button className="next-prev-buttons-contents-sayings" onClick={handlePrevious}> {isUrdu ? <span className="urdu-font">پچھلا صفحہ</span> : 'Previous'} </button>
         </div>
       </div>
     </div>
@@ -104,4 +72,3 @@ const ContentsDetail8 = ({ language }) => {
 };
 
 export default ContentsDetail8;
-

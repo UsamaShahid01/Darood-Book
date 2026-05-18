@@ -51,11 +51,7 @@ const MujahidHussaini = ({ language = 'en' }) => {
         </p>
 
         <div className="navigation-buttons-single-next-contents-sayings">
-          <button
-            type="button"
-            className={`single-next-button-contents-sayings ${isUrdu ? 'urdu-next' : ''}`}
-            onClick={handleNext}
-          >
+          <button type="button" className={`single-next-button-contents-sayings ${isUrdu ? 'urdu-next' : ''}`} onClick={handleNext} >
             {isUrdu ? 'اگلا صفحہ' : 'Next'}
           </button>
         </div>

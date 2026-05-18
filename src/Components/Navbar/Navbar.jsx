@@ -57,9 +57,7 @@ const Navbar = ({ language, setLanguage }) => {
 
   return (
     <div className="navbar">
-      <NavLink to="/">
-  <img src="/name.jpg" alt="Logo" className="nav-logo" />
-</NavLink>
+      <NavLink to="/"> <img src="/name.jpg" alt="Logo" className="nav-logo" /> </NavLink>
 
       <div className="hamburger" onClick={() => setIsMenuOpen(!isMenuOpen)}>
         {isMenuOpen ? <FaTimes /> : <FaBars />}
@@ -67,30 +65,14 @@ const Navbar = ({ language, setLanguage }) => {
 
       {/* NEW: ref added here */}
       <div ref={menuRef} className={`nav-links-wrapper ${isMenuOpen ? 'show' : ''}`}>
-        <NavLink to="/" end className={({ isActive }) => (isActive ? 'nav-item active-nav' : 'nav-item')}>
-          {currentLabels.home}
-        </NavLink>
-
-        <NavLink to="/contents" end className={({ isActive }) => (isActive ? 'nav-item active-nav' : 'nav-item')}>
-          {currentLabels.contents}
-        </NavLink>
-
-        <NavLink to="/author" className={({ isActive }) => (isActive ? 'nav-item active-nav' : 'nav-item')}>
-          {currentLabels.author}
-        </NavLink>
-
-        <NavLink to="/contact" className={({ isActive }) => (isActive ? 'nav-item active-nav' : 'nav-item')}>
-          {currentLabels.contact}
-        </NavLink>
+        <NavLink to="/" end className={({ isActive }) => (isActive ? 'nav-item active-nav' : 'nav-item')}> {currentLabels.home} </NavLink>
+        <NavLink to="/contents" end className={({ isActive }) => (isActive ? 'nav-item active-nav' : 'nav-item')}> {currentLabels.contents} </NavLink>
+        <NavLink to="/author" className={({ isActive }) => (isActive ? 'nav-item active-nav' : 'nav-item')}> {currentLabels.author} </NavLink>
+        <NavLink to="/contact" className={({ isActive }) => (isActive ? 'nav-item active-nav' : 'nav-item')}> {currentLabels.contact} </NavLink>
 
         <div className="language-selector-wrapper">
           <FaChevronDown className="chevron-icon" />
-          <select
-            className="language-selector"
-            value={language}
-            ref={selectRef}
-            onChange={handleChange}
-          >
+          <select className="language-selector" value={language} ref={selectRef} onChange={handleChange} >
             <option value="en">{currentLabels.english}</option>
             <option value="ur">{currentLabels.urdu}</option>
           </select>

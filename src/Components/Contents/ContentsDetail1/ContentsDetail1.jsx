@@ -97,61 +97,24 @@ const ContentsDetail1 = ({ language }) => {
           <br />
           حرف آخر کے طور پر       تبرک کے لیے چند نعتیہ, دعائیہ اشعار درج کیے جاتے ہیں:
 
-          <div className="poetry-block">
-            بجا کہ عمر    ہے کوتاه، طبع ہے سیماب<br />
-            دعا یہ ہے ترےؐ دیں سے وفا زیادہ ہو<br />
-            موسم حب نبیؐ میں پھلیں غنچے میرے<br />
-            ذکر سن سن کے ترآؐ نسل جواں ہو میری<br />
-            (   ریاض مجید   رحمۃ اللہ علیہ )
+          <div className="poetry-block"> بجا کہ عمر    ہے کوتاه، طبع ہے سیماب<br /> دعا یہ ہے ترےؐ دیں سے وفا زیادہ ہو<br /> موسم حب نبیؐ میں پھلیں غنچے میرے<br /> ذکر سن سن کے ترآؐ نسل جواں ہو میری<br /> (   ریاض مجید   رحمۃ اللہ علیہ ) </div>
 
-          </div>
+          <div className="poetry-block"> جیتے جی دل میں یاد ہو تیریؐ<br /> مرتے دم   لب پہ ہو   ترآؐ مذ کور  <br /> (حالی رحمۃ اللہ علیہ  ) </div>
 
-          <div className="poetry-block">
-            جیتے جی دل میں یاد ہو تیریؐ<br />
-            مرتے دم   لب پہ ہو   ترآؐ مذ کور  <br />
-            (حالی رحمۃ اللہ علیہ  )
-          </div>
+          <div className="poetry-block"> الہی ! نزع کا جب وقت ہو جس دم اجل آئے<br /> زبان پر میری اس دم نام احمدؐ برمحل آئے<br /> (محمد اسحاق سوداگر رحمۃ اللہ علیہ ) </div>
 
-          <div className="poetry-block">
-            الہی ! نزع کا جب وقت ہو جس دم اجل آئے<br />
-            زبان پر میری اس دم نام احمدؐ
+          <div className="poetry-block"> نکیر و منکر آئیں قبر میں میری یہی کہتے<br /> کہ سو آرام سے یاد خدا حب   پیمبرؐ   میں<br /> (محسن کاکوروی رحمۃ اللہ علیہ ) </div>
 
-            برمحل آئے<br />
-            (محمد اسحاق سوداگر رحمۃ اللہ علیہ
-            )
-          </div>
-
-          <div className="poetry-block">
-            نکیر و منکر آئیں قبر میں میری یہی کہتے<br />
-            کہ سو آرام سے یاد خدا حب   پیمبرؐ   میں<br />
-            (محسن کاکوروی رحمۃ اللہ علیہ
-            )
-          </div>
-
-          <p className="duaa">
-            وصلى الله تعالى على خير خلقه سيدنا النبی الأمی وعلى آله وأصحابه وأتباعه أجمعين إلى يوم الدين
-
-          </p>
+          <p className="duaa"> وصلى الله تعالى على خير خلقه سيدنا النبی الأمی وعلى آله وأصحابه وأتباعه أجمعين إلى يوم الدين </p>
 
           <p className="author-name-address">
-
             <span className="highlight-name">حافظ محمدسلیمان</span><br />
-            <span className="highlight-name" >
-              ۵۶سی - سمن آباد - فیصل آباد
-            </span>
-
+            <span className="highlight-name" > ۵۶سی - سمن آباد - فیصل آباد </span>
           </p>
-
-
         </p>
 
-
         <div className="navigation-buttons-single-next-contents-sayings">
-          <button
-            className="single-next-button-contents-sayings"
-            onClick={handleNext}
-            style={buttonStyle}
-          >
+          <button className="single-next-button-contents-sayings" onClick={handleNext} style={buttonStyle} >
             {buttonLabel}
           </button>
         </div>
