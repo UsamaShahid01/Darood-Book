@@ -8,7 +8,6 @@ const Contact = ({ language }) => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
         'service_u9ni1i3',
@@ -77,19 +76,6 @@ const Contact = ({ language }) => {
                 className="social-img"
               />
             </a>
-
-            {/* GitHub */}
-            {/* <a
-              href="https://github.com/UsamaShahid01"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
-                alt="GitHub"
-                className="social-img"
-              />
-            </a> */}
           </div>
         </div>
 
