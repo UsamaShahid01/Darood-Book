@@ -52,7 +52,9 @@ const Contact = ({ language }) => {
             <input type="text" name="name" placeholder={language === 'ur' ? 'آپ کا نام' : 'Your Name'} required />
             <input type="email" name="email" placeholder={language === 'ur' ? 'آپ کا ای میل' : 'Your Email'} required />
             <textarea name="message" rows="5" placeholder={language === 'ur' ? 'آپ کا پیغام' : 'Your Message'} required ></textarea>
-            <button type="submit" className='send-message-button'> {language === 'ur' ? 'پیغام بھیجیں' : 'Send Message'} </button>
+            <button type="submit" className='send-message-button'>
+              {language === 'ur' ? 'پیغام بھیجیں' : 'Send Message'}
+            </button>
           </form>
         </div>
       </div>
