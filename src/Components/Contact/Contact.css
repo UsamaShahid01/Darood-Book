@@ -79,6 +79,8 @@
   flex-direction: column;
   justify-content: center;
   animation: slideInLeft 1s ease forwards;
+   overflow-wrap: anywhere;   /* best modern option */
+  word-break: break-word;    /* fallback */
 }
 
 @keyframes slideInLeft {
